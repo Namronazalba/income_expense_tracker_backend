@@ -43,3 +43,4 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::put('/transactions/{id}', [TransactionController::class, 'update']);
     Route::delete('/transactions/{id}', [TransactionController::class, 'destroy']);
 });
+require __DIR__ . '/../public/index.php';
